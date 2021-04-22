@@ -4,7 +4,7 @@
   <%= f.label :title %>
   <%= f.text_field :title, placeholder: @article.title %>
   <%= f.label :content %>
-  <%= f.text_field :content, placeholder: @article.content %>
+  <%= f.text_area :content, placeholder: @article.content %>
   <%= f.submit value: "Update Article" %>
 <% end %>
 
